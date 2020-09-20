@@ -1,0 +1,40 @@
+@font-face{
+    font-family: "Gilroy Light";
+    src: url("../fonts/Gilroy-Light.woff");
+}
+@font-face{
+    font-family: "Gilroy ExtraBold";
+    src: url("../fonts/Gilroy-ExtraBold.woff");
+}
+
+h1{
+    font-family: "Gilroy ExtraBold", sans-serif;
+}
+
+.greentoblue{
+    background-image: linear-gradient(to right, rgb(15, 173, 99), rgb(6, 167, 179));
+}
+
+p{
+ margin: 10px;
+}
+
+body{
+    background: linear-gradient(to right, #daf8dc, #dff1fa);
+}
+
+.border-radius{
+    border-radius: 15px;
+}
+.card{
+    background: linear-gradient(to top, transparent, #a6ffda);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.281);
+	
+}
+
+.card-action{
+    background: transparent !important;
+	padding: 10px 10px;
+}
+
+
